@@ -176,11 +176,25 @@
 
     }
 
-    .footer p {
-        margin-top: 1rem;
-        padding-top: 5px;
-        padding-bottom: 15px;
+    .footer{
+        margin-top: 1.5rem;
         text-align: center;
+    }
+
+    .footer p {
+        margin: 0.5rem 0;
+        font-size: 1.1rem;
+    }
+
+    .footer a{
+        text-decoration: none;
+        color: #C54343;
+    }
+
+    .footer a:hover,
+    .footer a:focus{
+        color: #912f2f;
+        text-decoration: underline;
     }
 
     /*Menu*/
